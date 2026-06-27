@@ -1,5 +1,9 @@
-import Image from "next/image";
-
 export default function Home() {
-  return <h1>Job Tracker</h1>;
+  return (
+    <div>
+      <h1>Job Tracker</h1>
+      <h2>by David Song</h2>
+      <input id="companyName" name="companyName"></input>
+    </div>
+  );
 }
